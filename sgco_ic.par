@@ -1,0 +1,39 @@
+                  Parameters for SGCo_IC
+                  **********************
+ 
+START OF PARAMETERS:
+Grid.out                         % target location
+1 2 3                            % columns for location coordinates
+3 33 113 37                      % index of plane (0=all the planes), number of nodes 
+nscore.out                       % file with conditioning data
+1 2 3                            % columns for data coordinates
+7 8                              % columns for Gaussian data values
+Fe Al2O3                         % original variable names 
+-10.0  10.0                      % trimming limits for Gaussian data
+nscoreFe.trn                     % variable 1: file with conversion table (raw-Gaussian)
+25.1 69.17                       %             minimum and maximum values for raw variable
+1.0 1.0                          %             parameters for lower-tail and upper-tail extrapolation
+nscoreAl2O3.trn                  % variable 2: file with conversion table (raw-Gaussian)
+0.1  32.1                        %             minimum and maximum values for raw variable
+1.0 1.0                          %             parameters for lower-tail and upper-tail extrapolation
+0                                % Back-transformation? (0=yes, 1=no)
+vargfit                          % basename for files with variogram models
+2000 2000 2000                   % original data: maximum search radii in the rotated system
+0 0 0                            % angles for search ellipsoid
+0                                % divide into octants? 1=yes, 0=no
+80                               % number of data per octant (if octant=1) or in total
+2000 2000 2000                   % simulated nodes: maximum search radii in the rotated system
+0 0 0                            % angles for search ellipsoid
+0                                % divide into octants? 1=yes, 0=no
+80                               % number of data per octant (if octant=1) or in total
+1                                % co-simulation: 0=Conventional, 1=Hierarchical
+0                                % if co-simulation=0 --> searching strategy: 0=single; 1=multiple
+1                                % if co-simulation=1 --> 1th searching strategy: 0=single; 1=multiple
+1                                % if co-simulation=1 --> 2th searching strategy: 0=single; 1=multiple
+0                                % if co-simulation=1 --> inequality constraint: 0=yes; 1=no
+-0.89 62                         % if inequality constraint=0: coefficients of linear restriction line: slope, intercept
+100                              % number of realizations
+9784498                          % seed for random number generation
+sgco_ic.out                      % name of output file
+3                                % number of decimals for values in the output file
+ 
