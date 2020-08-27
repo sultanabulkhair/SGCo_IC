@@ -11,3 +11,5 @@ with inequality constraint
 7. backtr.m - back-transformation from Gaussian to original values
 7. importfile.m - read data from GSLIB file
 8. exportfile.m - print output into GSLIB file
+
+Additionally, examples of target location Grid.out, files with variogram model vargfit (.cc, .nug and .mod) and parameter file for SGCo_IC are included.
