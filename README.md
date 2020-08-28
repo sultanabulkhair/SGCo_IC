@@ -12,4 +12,10 @@ with inequality constraint
 7. importfile.m - read data from GSLIB file
 8. exportfile.m - print output into GSLIB file
 
-Additionally, examples of target location Grid.out, files with variogram model vargfit (.cc, .nug and .mod) and parameter file for SGCo_IC are included.
+Additionally, examples of target location Grid.out, files with variogram model vargfit (.cc, .nug and .mod), files with conversion tables (.trn) and parameter file for SGCo_IC are included.
+
+# Instruction
+1) Fill all input parameters in parameter file (to get default parameter file run create_paramfile_input.m).
+2) Write following code in the MATLAB command line: sgco_ic('sgco_ic.par')
+where sgco_ic is the main code and sgco_ic.par is parameter file.
+3) Output is GSLIB file that contains n relizations of primary and secondary variables.
