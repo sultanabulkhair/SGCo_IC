@@ -14,7 +14,7 @@ with inequality constraint
 
 Additionally, examples of target location Grid.out, files with variogram model vargfit (.cc, .nug and .mod), files with conversion tables (.trn) and parameter file for SGCo_IC are included.
 
-# Instruction
+# Instructions
 1) Fill all input parameters in parameter file sgco_ic.par (to get default parameter file run create_paramfile_input.m).
 2) Write following code in the MATLAB command line: sgco_ic('sgco_ic.par')
 3) Output is GSLIB file that contains n relizations of primary and secondary variables.
