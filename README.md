@@ -1,5 +1,10 @@
 # SGCo_IC
-This work is associated with the manuscript "Assessing Heterotopic Searching Strategy in Hierarchical Cosimulation Framework for Modeling the Variables with Inequality Constraints" by Sultan Abulkhair and Nasser Madani submitted to the Computers & Geosciences. Repository belongs to Geostatistics research group in School of Mining and Geosciences, Nazarbayev University, Nur-Sultan, Kazakhstan.
+This work is associated with the paper "Assessing heterotopic searching strategy in hierarchical cosimulation for modeling the variables with inequality constraints" by Sultan Abulkhair and Nasser Madani published in Comptes Rendus. Géoscience. Repository belongs to Geostatistics research group in School of Mining and Geosciences, Nazarbayev University, Nur-Sultan, Kazakhstan.
+
+Please reference the original paper in case of using this code in your work:
+
+Abulkhair, S., & Madani, N. (2021). Assessing heterotopic searching strategy in hierarchical cosimulation for modeling the variables with inequality constraints. Comptes Rendus. Géoscience, 353, 115-134. https://doi.org/10.5802/crgeos.58
+
 # This file consists of 9 MATLAB functions:
 1. sgco_ic.m - main code capable of implementing traditional sequential Gaussian, hierarchical and proposed cosimulation for variables 
 with inequality constraint
